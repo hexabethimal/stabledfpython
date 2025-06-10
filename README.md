@@ -58,7 +58,7 @@ Python is safe for your computer, but not everything that you could possibly do 
 3. Create and activate Python venv
   - Type `python -m venv mytestproject` and press Enter where *mytestproject* is the name you want for your Python program. Wait a few seconds for it to create.
   - Type `cd mytestproject` and press Enter
-  - Type `Scripts\activate` and press Enter where *mytestproject* is the name you chose for your Python program 
+  - Type `Scripts\activate` and press Enter 
 
 ## Install Python Library Dependency
 Python comes with many useful libraries (capabilities) during the normal installation, but there are many more libraries that you can add to Python to get it to do more stuff. In order to run this Python program, you need a very popular library called Requests
