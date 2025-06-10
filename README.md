@@ -29,7 +29,7 @@ If you can code a little Python, then you can get up and running quickly and che
 ## Setup Your Cloud Server
 1. On Runpod, under Manage on the left sidebar, click Serverless
 2. Under Quick Deploy, select Image to see quick deploy options
-3. Click 'Configure' button for one of the SD or Stable Diffusion options that looks good to you (You can change your mind a do a different one later)
+3. Click 'Configure' button for one of the SD or Stable Diffusion options that looks good to you (You can change your mind and do a different one later)
 
 ## Obtain Server Endpoint
 1. Once your server has finished deploying and shows 'Ready' in green, click on the Requests tab
