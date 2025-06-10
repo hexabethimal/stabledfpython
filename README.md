@@ -56,19 +56,34 @@ Python is safe for your computer, but not everything that you could possibly do 
   - If you put your Python projects folder in the C: Drive, then you're there now if you see `C:\>`
   - Navigate to your Python projects folder. If you followed step 1 exactly, then type  `cd pythontest`
 3. Create and activate Python venv
-  - Type `python -m venv mytestproject` where *mytestproject* is the name you want for your Python program. Wait a few seconds for it to create.
-  - Type `mytestproject\Scripts\activate` where *mytestproject* is the name you chose for your Python program 
+  - Type `python -m venv mytestproject` and press Enter where *mytestproject* is the name you want for your Python program. Wait a few seconds for it to create.
+  - Type `cd mytestproject` and press Enter
+  - Type `Scripts\activate` and press Enter where *mytestproject* is the name you chose for your Python program 
 
 ## Install Python Library Dependency
 Python comes with many useful libraries (capabilities) during the normal installation, but there are many more libraries that you can add to Python to get it to do more stuff. In order to run this Python program, you need a very popular library called Requests
 See here for information about the Requests library [Requests library](https://pypi.org/project/requests/)
-1. Inside your Python Virtual Environment, enter `pip install requests`
+1. Inside your Python Virtual Environment, type `pip install requests` and press Enter
 You'll see some stuff happening inside your terminal. This is perfectly normal.
 You may see a notice that *a new release of pip is available*. You can disregard this.
 
 ## Editing Python Script
+1. Download the Python Script available from this project repository on Github (that you are currently viewing) *imagegen.py*
+This file is a Python script file with extension .py, but can be edited in a normal text editor.
+2. Move the downloaded Python script file to your Python virtual environment project folder, i.e. *mytestproject*
+3. After moving, Right-Click on the file and select *Edit in Notepad* (unless you know what you're doing and have a better text editor)
+4. Copy and paste your API Key from above into the quotation marks at the top. Keep the quotation marks, but just paste your API key value where it says *Copy and Paste Your API Key here*
+5. Do similar for your Server Endpoint from above. Copy and paste it, but keep the quotation marks into where it says *Copy and Paste your endpoint here*
+6. Inside the payload, adjust the prompt and other values according to what you want to create. You will see instructions for each value.
+7. When you are done making changes, **SAVE the file**. This is very important. If you don't save the changes, then when you run the Python script, it won't work. Whenever you make changes, like making a new image prompt, you must save your changes before you run the Python script again.
 
 ## Running Python Script
+Inside Command Prompt window in Python virtual environment
+1. Type `python imagegen.py` and Press Enter (since the Python Script file is called *imagegen.py*)
+   - You will see messages appear *Still processing... Waiting 5 seconds*
+   - When it has finished, you will see *Processing complete! Image saved successfully*
 
 ## Seeing Results
+1. Inside your project folder, you will see an image file (.png) called outputimage.png . This is your generated image.
+  - This file will be replaced every time you run your script to generate a new image. So if you generate something you like, rename it to something before you run your python script again.
 
