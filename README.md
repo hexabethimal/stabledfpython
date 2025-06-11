@@ -44,7 +44,7 @@ If you can code a little Python, then you can get up and running quickly and che
 ## Install Python
 Python is a programming language that helps people write instructions for computers in a way that’s easy to read and understand.
 1. Download and install the latest version of Python [Python download](https://www.python.org/downloads/)
-2. Install Python. **Important** Check the checkbox for 'Add to Path'.
+2. Install Python. **Important** Check the checkbox for 'Add to Path'. Select Custom Install. Under Advanced options during the install, change the Customize install location to `C:\Python313`.
 
 ## Create Python Virtual Environment
 Python is safe for your computer, but not everything that you could possibly do with Python is safe for your computer. While my instructions are completely safe for your computer, it's a good idea to get into the habit of only running Python through a Python virtual environment. This step teaches you how to set up a virtual environment for your image generator program.
